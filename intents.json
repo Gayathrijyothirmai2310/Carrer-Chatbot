@@ -1,0 +1,312 @@
+{
+  "intents": [
+    {
+      "tag": "career_suggestions",
+      "patterns": [
+        "What career suits me?",
+        "Suggest me a career",
+        "Help me choose a job",
+        "I don't know what to do after graduation",
+        "Which field should I go into?"
+      ],
+      "responses": [
+        "Let's explore your interests! Tell me what subjects or activities you enjoy, and I can suggest suitable career paths.",
+        "We can find a career fit based on your strengths, skills, and interests. Can you tell me more about them?"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello there! I'm your career assistant bot. How can I help you with your career journey today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you", "Talk to you later"],
+      "responses": ["Goodbye! Wishing you success in your career journey!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're very welcome! Happy to help you explore your career options."]
+    },
+
+    {
+      "tag": "career_doctor",
+      "patterns": [
+        "Tell me about being a doctor",
+        "How to become a doctor?",
+        "Is doctor a good career?",
+        "What is a medical career like?",
+        "Career guidance for doctor"
+      ],
+      "responses": [
+        "Doctors diagnose and treat illnesses. You typically need an MBBS degree followed by specialization.",
+        "Medicine is a respected field requiring years of study and dedication.",
+        "Doctors can work in hospitals, clinics, or pursue research and teaching."
+      ]
+    },
+    {
+      "tag": "career_software_engineer",
+      "patterns": [
+        "Tell me about software engineering",
+        "How to become a software engineer?",
+        "Is software engineering a good career?",
+        "Career guidance for software engineer"
+      ],
+      "responses": [
+        "Software engineers design, develop, and maintain computer systems and applications.",
+        "It’s a growing field with opportunities in almost every industry.",
+        "To pursue it, study computer science or related fields and build strong coding skills."
+      ]
+    },
+    {
+      "tag": "career_teacher",
+      "patterns": [
+        "Tell me about being a teacher",
+        "How to become a teacher?",
+        "Is teaching a good career?",
+        "Career guidance for teacher"
+      ],
+      "responses": [
+        "Teachers educate students and play a key role in shaping their futures.",
+        "You’ll typically need a degree in education or your subject plus certification.",
+        "Teaching offers job satisfaction and opportunities across schools and universities."
+      ]
+    },
+    {
+      "tag": "career_doctor",
+      "patterns": ["Tell me about being a doctor", "How to become a doctor?", "Is doctor a good career?"],
+      "responses": ["Doctors diagnose and treat illnesses.", "Requires an MBBS or MD degree and specialization."]
+    },
+    {
+      "tag": "career_nurse",
+      "patterns": ["Tell me about being a nurse", "How to become a nurse?", "Is nursing a good career?"],
+      "responses": ["Nurses care for patients and support doctors.", "Requires a nursing diploma or B.Sc Nursing."]
+    },
+    {
+      "tag": "career_software_engineer",
+      "patterns": ["Tell me about software engineering", "How to become a software engineer?", "Is software engineering a good career?"],
+      "responses": ["Software engineers design and build computer programs.", "Requires strong coding skills and a CS degree."]
+    },
+    {
+      "tag": "career_teacher",
+      "patterns": ["Tell me about being a teacher", "How to become a teacher?", "Is teaching a good career?"],
+      "responses": ["Teachers educate and inspire students.", "Requires a degree and teacher certification."]
+    },
+    {
+      "tag": "career_lawyer",
+      "patterns": ["Tell me about being a lawyer", "How to become a lawyer?", "Is law a good career?"],
+      "responses": ["Lawyers represent clients and advise on legal matters.", "Requires a law degree and bar exam."]
+    },
+    {
+      "tag": "career_accountant",
+      "patterns": ["Tell me about being an accountant", "How to become an accountant?", "Is accounting a good career?"],
+      "responses": ["Accountants manage financial records and taxes.", "Requires a degree in accounting or finance."]
+    },
+    {
+      "tag": "career_architect",
+      "patterns": ["Tell me about being an architect", "How to become an architect?", "Is architecture a good career?"],
+      "responses": ["Architects design buildings and spaces.", "Requires a degree in architecture and licensing."]
+    },
+    {
+      "tag": "career_civil_engineer",
+      "patterns": ["Tell me about civil engineering", "How to become a civil engineer?", "Is civil engineering a good career?"],
+      "responses": ["Civil engineers design and construct infrastructure.", "Requires a degree in civil engineering."]
+    },
+    {
+      "tag": "career_mechanical_engineer",
+      "patterns": ["Tell me about mechanical engineering", "How to become a mechanical engineer?", "Is mechanical engineering a good career?"],
+      "responses": ["Mechanical engineers design machines and systems.", "Requires a mechanical engineering degree."]
+    },
+    {
+      "tag": "career_electrical_engineer",
+      "patterns": ["Tell me about electrical engineering", "How to become an electrical engineer?", "Is electrical engineering a good career?"],
+      "responses": ["Electrical engineers work with power and electronics.", "Requires an electrical engineering degree."]
+    },
+    {
+      "tag": "career_data_scientist",
+      "patterns": ["Tell me about being a data scientist", "How to become a data scientist?", "Is data science a good career?"],
+      "responses": ["Data scientists analyze data to gain insights.", "Requires skills in statistics, Python, and ML."]
+    },
+    {
+      "tag": "career_ai_engineer",
+      "patterns": ["Tell me about being an AI engineer", "How to become an AI engineer?", "Is AI engineering a good career?"],
+      "responses": ["AI engineers build intelligent systems.", "Requires ML knowledge and programming skills."]
+    },
+    {
+      "tag": "career_web_developer",
+      "patterns": ["Tell me about being a web developer", "How to become a web developer?", "Is web development a good career?"],
+      "responses": ["Web developers build and maintain websites.", "Requires HTML, CSS, and JavaScript knowledge."]
+    },
+    {
+      "tag": "career_graphic_designer",
+      "patterns": ["Tell me about being a graphic designer", "How to become a graphic designer?", "Is graphic design a good career?"],
+      "responses": ["Graphic designers create visual content for media.", "Requires creativity and design software skills."]
+    },
+    {
+      "tag": "career_ui_ux_designer",
+      "patterns": ["Tell me about UI/UX design", "How to become a UX designer?", "Is UX design a good career?"],
+      "responses": ["UI/UX designers improve digital product usability.", "Requires design and user research skills."]
+    },
+    {
+      "tag": "career_digital_marketer",
+      "patterns": ["Tell me about digital marketing", "How to become a digital marketer?", "Is digital marketing a good career?"],
+      "responses": ["Digital marketers promote brands online.", "Requires SEO, analytics, and advertising skills."]
+    },
+    {
+      "tag": "career_journalist",
+      "patterns": ["Tell me about journalism", "How to become a journalist?", "Is journalism a good career?"],
+      "responses": ["Journalists report news and stories.", "Requires communication skills and media training."]
+    },
+    {
+      "tag": "career_pharmacist",
+      "patterns": ["Tell me about being a pharmacist", "How to become a pharmacist?", "Is pharmacy a good career?"],
+      "responses": ["Pharmacists prepare and dispense medicines.", "Requires a degree in pharmacy and license."]
+    },
+    {
+      "tag": "career_psychologist",
+      "patterns": ["Tell me about psychology", "How to become a psychologist?", "Is psychology a good career?"],
+      "responses": ["Psychologists study human behavior and mind.", "Requires a psychology degree and specialization."]
+    },
+    {
+      "tag": "career_financial_analyst",
+      "patterns": ["Tell me about being a financial analyst", "How to become a financial analyst?", "Is financial analysis a good career?"],
+      "responses": ["Financial analysts evaluate investments and markets.", "Requires finance or economics background."]
+    },
+    {
+      "tag": "career_investment_banker",
+      "patterns": ["Tell me about investment banking", "How to become an investment banker?", "Is investment banking a good career?"],
+      "responses": ["Investment bankers help companies raise capital.", "Requires finance expertise and long hours."]
+    },
+    {
+      "tag": "career_entrepreneur",
+      "patterns": ["Tell me about entrepreneurship", "How to become an entrepreneur?", "Is entrepreneurship a good career?"],
+      "responses": ["Entrepreneurs start and manage businesses.", "Requires creativity, risk-taking, and leadership."]
+    },
+    {
+      "tag": "career_project_manager",
+      "patterns": ["Tell me about project management", "How to become a project manager?", "Is project management a good career?"],
+      "responses": ["Project managers lead teams to complete goals.", "Requires leadership and organizational skills."]
+    },
+    {
+      "tag": "career_cybersecurity_expert",
+      "patterns": ["Tell me about cybersecurity", "How to become a cybersecurity expert?", "Is cybersecurity a good career?"],
+      "responses": ["Cybersecurity experts protect digital systems.", "Requires IT knowledge and security certifications."]
+    },
+    {
+      "tag": "career_cloud_engineer",
+      "patterns": ["Tell me about cloud engineering", "How to become a cloud engineer?", "Is cloud engineering a good career?"],
+      "responses": ["Cloud engineers manage cloud infrastructure.", "Requires AWS, Azure, or GCP skills."]
+    },
+    {
+      "tag": "career_network_engineer",
+      "patterns": ["Tell me about network engineering", "How to become a network engineer?", "Is networking a good career?"],
+      "responses": ["Network engineers maintain computer networks.", "Requires knowledge of routing and switching."]
+    },
+    {
+      "tag": "career_mechanic",
+      "patterns": ["Tell me about being a mechanic", "How to become a mechanic?", "Is being a mechanic a good career?"],
+      "responses": ["Mechanics repair and maintain machines and vehicles.", "Requires technical training."]
+    },
+    {
+      "tag": "career_chef",
+      "patterns": ["Tell me about being a chef", "How to become a chef?", "Is being a chef a good career?"],
+      "responses": ["Chefs prepare food and design menus.", "Requires culinary training and experience."]
+    },
+    {
+      "tag": "career_pilot",
+      "patterns": ["Tell me about being a pilot", "How to become a pilot?", "Is aviation a good career?"],
+      "responses": ["Pilots fly aircraft for transport or defense.", "Requires flight training and licenses."]
+    },
+    {
+      "tag": "career_flight_attendant",
+      "patterns": ["Tell me about being a flight attendant", "How to become a flight attendant?", "Is being a flight attendant a good career?"],
+      "responses": ["Flight attendants ensure passenger safety and comfort.", "Requires training and communication skills."]
+    },
+    {
+      "tag": "career_police_officer",
+      "patterns": ["Tell me about being a police officer", "How to become a police officer?", "Is law enforcement a good career?"],
+      "responses": ["Police officers enforce laws and maintain safety.", "Requires academy training and discipline."]
+    },
+    {
+      "tag": "career_firefighter",
+      "patterns": ["Tell me about being a firefighter", "How to become a firefighter?", "Is firefighting a good career?"],
+      "responses": ["Firefighters control fires and perform rescues.", "Requires fitness and emergency training."]
+    },
+    {
+      "tag": "career_military_officer",
+      "patterns": ["Tell me about military careers", "How to become a military officer?", "Is defense service a good career?"],
+      "responses": ["Military officers serve and protect the nation.", "Requires discipline and national service training."]
+    },
+    {
+      "tag": "career_scientist",
+      "patterns": ["Tell me about being a scientist", "How to become a scientist?", "Is science research a good career?"],
+      "responses": ["Scientists conduct research and experiments.", "Requires postgraduate education."]
+    },
+    {
+      "tag": "career_biotechnologist",
+      "patterns": ["Tell me about biotechnology", "How to become a biotechnologist?", "Is biotech a good career?"],
+      "responses": ["Biotechnologists use biology for innovation.", "Requires a degree in biotech or life sciences."]
+    },
+    {
+      "tag": "career_environmental_engineer",
+      "patterns": ["Tell me about environmental engineering", "How to become an environmental engineer?", "Is environmental engineering a good career?"],
+      "responses": ["Environmental engineers solve pollution issues.", "Requires engineering and environmental science knowledge."]
+    },
+    {
+      "tag": "career_agriculturist",
+      "patterns": ["Tell me about agriculture", "How to become an agriculturist?", "Is agriculture a good career?"],
+      "responses": ["Agriculturists improve crop and soil productivity.", "Requires an agriculture or biology degree."]
+    },
+    {
+      "tag": "career_fashion_designer",
+      "patterns": ["Tell me about fashion design", "How to become a fashion designer?", "Is fashion design a good career?"],
+      "responses": ["Fashion designers create clothing and accessories.", "Requires creativity and design training."]
+    },
+    {
+      "tag": "career_event_planner",
+      "patterns": ["Tell me about event planning", "How to become an event planner?", "Is event management a good career?"],
+      "responses": ["Event planners organize functions and events.", "Requires organization and communication skills."]
+    },
+    {
+      "tag": "career_photographer",
+      "patterns": ["Tell me about photography", "How to become a photographer?", "Is photography a good career?"],
+      "responses": ["Photographers capture images for art or media.", "Requires technical and creative skills."]
+    },
+    {
+      "tag": "career_videographer",
+      "patterns": ["Tell me about videography", "How to become a videographer?", "Is videography a good career?"],
+      "responses": ["Videographers film and edit visual content.", "Requires camera and editing expertise."]
+    },
+    {
+      "tag": "career_animator",
+      "patterns": ["Tell me about animation", "How to become an animator?", "Is animation a good career?"],
+      "responses": ["Animators create moving images for film or games.", "Requires design and animation software skills."]
+    },
+    {
+      "tag": "career_game_developer",
+      "patterns": ["Tell me about game development", "How to become a game developer?", "Is game development a good career?"],
+      "responses": ["Game developers create interactive entertainment.", "Requires programming and design skills."]
+    },
+    {
+      "tag": "career_social_worker",
+      "patterns": ["Tell me about social work", "How to become a social worker?", "Is social work a good career?"],
+      "responses": ["Social workers help individuals and communities.", "Requires empathy and a social work degree."]
+    },
+    {
+      "tag": "career_counselor",
+      "patterns": ["Tell me about counseling", "How to become a counselor?", "Is counseling a good career?"],
+      "responses": ["Counselors guide people through personal issues.", "Requires psychology and communication skills."]
+    },
+    {
+      "tag": "career_physiotherapist",
+      "patterns": ["Tell me about physiotherapy", "How to become a physiotherapist?", "Is physiotherapy a good career?"],
+      "responses": ["Physiotherapists help patients recover movement.", "Requires a physiotherapy degree."]
+    },
+    {
+      "tag": "career_dentist",
+      "patterns": ["Tell me about dentistry", "How to become a dentist?", "Is dentistry a good career?"],
+      "responses": ["Dentists treat oral health problems.", "Requires a dental degree and license."]
+    }
+  ]
+}

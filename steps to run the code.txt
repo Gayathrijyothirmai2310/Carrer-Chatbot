@@ -1,0 +1,32 @@
+Go the file win which the whole code is save and open "cmd" of the file
+
+Run the following commands one by one
+
+
+python --version
+pip --version
+
+
+
+pip install -r requirements.txt
+
+
+python -m pip install --upgrade pip
+
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+
+
+If you get permission errors:
+pip install -r requirements.txt --user
+
+
+If using Python 3 explicitly:
+python3 -m pip install -r requirements.txt
+
+
+Running
+streamlit run app.py
+
+
